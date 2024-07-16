@@ -3,6 +3,8 @@
 namespace App\Http\Controllers\api;
    
 use Illuminate\Http\Request;
+use Illuminate\Http\RedirectResponse;
+use Resend\Laravel\Facades\Resend;
 use App\Http\Controllers\api\BaseController as BaseController;
 use App\Models\User;
 use Illuminate\Support\Facades\Auth;
@@ -55,5 +57,19 @@ class RegisterController extends BaseController
         else{ 
             return $this->sendError('Unauthorised.', ['error'=>'Unauthorised']);
         } 
+    }
+
+    public function email(Request $request): JsonResponse
+    {
+        Resend::emails()->send([
+            'from' => config('mail.from.address'),
+            'to' => [$request->email],
+            'subject' => 'Email Verification',
+            'html' => '<h1>Hello World!</h1>',
+        ]);
+
+        $success['email'] = $request->email;
+
+        return $this->sendResponse($success, 'Email Send successfully.');
     }
 }

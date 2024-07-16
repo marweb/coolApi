@@ -16,6 +16,7 @@ Route::get('/', function (Request $request) {
 Route::controller(RegisterController::class)->group(function(){
     Route::post('register', 'register');
     Route::post('login', 'login');
+    Route::get('email', 'email');
 });
          
 Route::middleware('auth:sanctum')->group( function () {
