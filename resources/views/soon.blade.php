@@ -58,9 +58,7 @@
 								</a>
 							</div>
 							<p class="subtitle is-4">
-								Our website is under construction, but we are ready to go! Want to know more about
-								us, tell us about your project or just to say hello? Contact us on social media and
-								we will get back as soon as possible.
+                                Our site is currently being built, but we’re all set to assist you! Interested in learning more about us, discussing your project, or simply want to say hi? Reach out to us on social media, and we’ll respond as soon as we can.
 							</p>
 							<br />
 						</div>
