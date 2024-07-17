@@ -33,25 +33,25 @@
 			<div class="hero-body">
 				<div class="container has-text-centered">
 					<div class="column is-8 is-offset-2 is-6-widescreen is-offset-3-widescreen">
-						<p class="title is-1">COMING SOON.</p>
+						<p class="title is-1">COMING SOON</p>
 						<div class="container area-center">
 							<div class="buttons is-centered">
-								<a class="button is-medium is-facebook">
+								<a class="button is-medium is-facebook" href="#">
 									<span class="icon">
 										<i class="fab fa-facebook-f fa-lg"></i>
 									</span>
 								</a>
-								<a class="button is-medium is-twitter">
+								<a class="button is-medium is-twitter" href="#">
 									<span class="icon">
 										<i class="fab fa-twitter fa-lg"></i>
 									</span>
 								</a>
-								<a class="button is-medium is-youtube">
+								<a class="button is-medium is-youtube" href="#">
 									<span class="icon">
 										<i class="fab fa-youtube fa-lg"></i>
 									</span>
 								</a>
-								<a class="button is-medium is-linkedin">
+								<a class="button is-medium is-linkedin" href="#">
 									<span class="icon">
 										<i class="fab fa-linkedin-in fa-lg"></i>
 									</span>
